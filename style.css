@@ -12,12 +12,7 @@
 }
 
 
-::after,
-::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 a {
     text-decoration: none;
@@ -32,138 +27,26 @@ h1 {
     font-size: 1.5rem;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
 
-.wrapper {
-    display: flex;
+.bg-custom-black {
+    background-color: black;
+    font-family: "Varela Round", sans-serif;
 }
-
-.main {
-    min-height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    transition: margin-left 0.35s ease-in-out;
-    background-color: #fafbfe;
-    margin-left: 95px;
-    /* default sidebar width */
-}
-
-#sidebar {
-    width: 95px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: 1000;
-    transition: all .25s ease-in-out;
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-}
-
-#sidebar.expand {
-    width: 260px;
-}
-
-.main.expanded {
-    margin-left: 260px;
-    /* expanded sidebar width */
-}
-
-.toggle-btn {
-    background-color: transparent;
-    cursor: pointer;
-    border: 0;
-    padding: 1rem 1.5rem;
-}
-
-.toggle-btn i {
-    font-size: 1.5rem;
-    color: #FFF;
-}
-
-.sidebar-logo {
-    margin: auto 0;
-}
-
-.sidebar-logo a {
-    color: #FFF;
-    font-size: 1.15rem;
-    font-weight: 600;
-}
-
-#sidebar:not(.expand) .sidebar-logo,
-#sidebar:not(.expand) a.sidebar-link span {
-    display: none;
-}
-
-.sidebar-nav {
-    padding: 2rem 0;
-    flex: 1 1 auto;
-}
-
-a.sidebar-link {
-    padding: .625rem 1.625rem;
-    color: #FFF;
-    display: block;
-    font-size: 0.9rem;
-    white-space: nowrap;
-    border-left: 3px solid transparent;
-}
-
-.sidebar-link i {
-    font-size: 1.1rem;
-    margin-right: .75rem;
-}
-
-a.sidebar-link:hover {
-    background-color: rgba(255, 255, 255, .075);
-    border-left: 3px solid #3b7ddd;
-}
-
-.sidebar-item {
-    position: relative;
-}
-
-#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
-    position: absolute;
-    top: 0;
-    left: 70px;
-    background-color: #0e2238;
-    padding: 0;
-    min-width: 15rem;
-    display: none;
-}
-
-#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown {
-    display: block;
-    max-height: 15em;
-    width: 100%;
-    opacity: 1;
-}
-
-#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
-    border: solid;
-    border-width: 0 .075rem .075rem 0;
-    content: "";
-    display: inline-block;
-    padding: 2px;
-    position: absolute;
-    right: 1.5rem;
-    top: 1.4rem;
-    transform: rotate(-135deg);
-    transition: all .2s ease-out;
-}
-
-#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
-    transform: rotate(45deg);
-    transition: all .2s ease-out;
+ul
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: "Varela Round", sans-serif;
+    font-size: 2.5vh;
 }
 
 .img_logo {
     max-width: 100px;
+    width: 100%;
+    height: auto;
+}
+.img_logo2 {
+    max-width: 80px;
     width: 100%;
     height: auto;
 }
@@ -235,6 +118,20 @@ p {
     border-radius: 10px;
     transform: scale(1.05);
 }
+.a-nav {
+    font-size: 3vh;
+    font-family: "Varela Round", sans-serif;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.a-nav:hover {
+    color: rgb(182, 34, 34);
+    border-radius: 10px;
+    transform: scale(1.05);
+}
 
 .img_redes {
     max-width: 35px;
@@ -276,10 +173,11 @@ p {
     width: auto;
     height: auto;
 }
-.marcas
-{
+
+.marcas {
     font-size: 6vh;
 }
+
 .btn {
     margin: 3px;
     box-sizing: border-box;
@@ -290,11 +188,13 @@ p {
     font-family: "Varela Round", sans-serif;
     transition: background-color 0.3s, transform 0.3s;
 }
+
 .btn:hover {
     background-color: black;
     color: white;
     border: 3px solid #9b9b9b;
 }
+
 .carousel-image {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -303,6 +203,7 @@ p {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
 .btn2 {
     margin: 3px;
     box-sizing: border-box;
@@ -316,6 +217,7 @@ p {
     font-family: "Varela Round", sans-serif;
     transition: background-color 0.3s, transform 0.3s;
 }
+
 .btn2:hover {
     background-color: black;
     color: white;
@@ -353,7 +255,8 @@ p {
 
     .slider-container {
         width: 100%;
-        height: auto; /* Deja que la altura se ajuste automáticamente */
+        height: auto;
+        /* Deja que la altura se ajuste automáticamente */
     }
 
     .slider-item img {
@@ -365,16 +268,16 @@ p {
         width: 100%;
         height: auto;
     }
-    .marcas
-    {
+
+    .marcas {
         font-size: 3.5vh;
     }
-    .izquierda
-    {
+
+    .izquierda {
         display: block;
     }
-    .derecha
-    {
+
+    .derecha {
         display: none;
     }
 
