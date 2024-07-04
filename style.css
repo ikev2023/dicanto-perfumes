@@ -201,6 +201,7 @@ input[type="radio"]:checked {
     align-items: center;
     text-align: center;
 }
+
 .card {
     transition: transform 0.2s;
     border: 10px;
@@ -344,6 +345,20 @@ input[type="radio"]:checked {
     .derecha {
         display: none;
     }
+    
 
-
+}
+@media (max-width: 375px)
+{
+    .fixed-card-size {
+        width: 100%;
+        /* Ancho completo */
+        height: auto;
+        /* Ajusta la altura automáticamente */
+    }
+    
+    .fixed-card-size img {
+        max-width: 100%;
+        /* Ajusta el tamaño máximo de las imágenes */
+    }
 }
