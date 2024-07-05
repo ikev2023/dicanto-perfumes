@@ -95,12 +95,19 @@ footer {
     font-size: 3vh;
     font-family: "Poppins", sans-serif;
     color: white;
+    text-align: center;
 }
 
 p {
     font-size: 2vh;
     font-family: "Poppins", sans-serif;
     text-align: justify;
+}
+.card-title
+{
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .a-footer {
@@ -111,6 +118,7 @@ p {
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
 }
 
 .a-footer:hover {
@@ -189,7 +197,6 @@ input[type="radio"]:checked {
 
 .fixed-card-size img {
     max-width: 75%;
-    max-height: auto;
     width: auto;
     /* Ajusta el tamaño máximo de las imágenes */
 }
