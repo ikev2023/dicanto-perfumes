@@ -30,8 +30,8 @@ h1 {
     background-color: black;
     font-family: "Poppins", sans-serif;
 }
-ul
-{
+
+ul {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-family: "Poppins", sans-serif;
@@ -43,6 +43,7 @@ ul
     width: 100%;
     height: auto;
 }
+
 .img_logo2 {
     max-width: 80px;
     width: 100%;
@@ -103,8 +104,8 @@ p {
     font-family: "Poppins", sans-serif;
     text-align: justify;
 }
-.card-title
-{
+
+.card-title {
     font-size: 2.5vh;
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -126,6 +127,7 @@ p {
     border-radius: 10px;
     transform: scale(1.05);
 }
+
 .a-nav {
     font-size: 3vh;
     font-family: "Poppins", sans-serif;
@@ -150,6 +152,18 @@ p {
 .img_perfumes {
     width: 500px;
     height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.img_perfumes2 {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.img_hidden {
+    opacity: 0;
 }
 
 .slider-container {
@@ -159,6 +173,7 @@ p {
     height: 500px;
     /* Puedes ajustar la altura según tus necesidades */
 }
+
 input[type="radio"] {
     appearance: none;
     -webkit-appearance: none;
@@ -173,6 +188,7 @@ input[type="radio"] {
     transition: transform 0.3s ease;
     /* Añade transición a la propiedad transform */
 }
+
 input[type="radio"]:checked {
     background-color: rgb(129, 125, 125);
     border-color: rgb(0, 0, 0);
@@ -180,6 +196,7 @@ input[type="radio"]:checked {
     transform: rotate(360deg) scale(1.2);
     /* Añade rotación y cambio de tamaño */
 }
+
 .btn_comprar {
     padding: 10px 20px;
     font-size: 16px;
@@ -188,6 +205,7 @@ input[type="radio"]:checked {
     border: none;
     cursor: pointer;
 }
+
 .fixed-card-size {
     width: 400px;
     /* Ancho fijo */
@@ -276,6 +294,7 @@ input[type="radio"]:checked {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
+
 .btn2 {
     margin: 3px;
     box-sizing: border-box;
@@ -352,18 +371,32 @@ input[type="radio"]:checked {
     .derecha {
         display: none;
     }
-    
+
 
 }
-@media (max-width: 375px)
-{
+
+@media (max-width: 768px) {
+    .fixed-card-size {
+        width: 100%;
+        /* Ancho completo */
+        height: 100%;
+        /* Ajusta la altura automáticamente */
+    }
+
+    .fixed-card-size img {
+        max-width: 100%;
+        /* Ajusta el tamaño máximo de las imágenes */
+    }
+}
+
+@media (max-width: 375px) {
     .fixed-card-size {
         width: 100%;
         /* Ancho completo */
         height: auto;
         /* Ajusta la altura automáticamente */
     }
-    
+
     .fixed-card-size img {
         max-width: 100%;
         /* Ajusta el tamaño máximo de las imágenes */
