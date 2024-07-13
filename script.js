@@ -44,9 +44,9 @@ function getDetails(product) {
       return {
         name: 'Club De Nuit de "ARMAF"',
         price: { "10ml": "Q90.00", "5ml": "Q55.00" },
-        image: "perfumes_catalogos/armaf club.jpeg",
+        image: "perfumes_catalogos/armaf_club.jpeg",
         smallImages: [
-          "perfumes_catalogos/armaf club.jpeg",
+          "perfumes_catalogos/armaf_club.jpeg",
           "perfumes_catalogos/armaf_mini.webp",
           "notas/armaf.png"
         ],
@@ -55,7 +55,7 @@ function getDetails(product) {
         mensaje: mensaje,
       };
     case "halloween":
-      mensaje = "Hola, me gustaria comprar un Decant Club De Nuit de 'Halloween Man' 😁.";
+      mensaje = "Hola, me gustaria comprar un Decant Halloween Man 😁.";
       return {
         name: "Halloween Man",
         price: { "10ml": "Q80.00", "5ml": "Q50.00" },
@@ -69,7 +69,7 @@ function getDetails(product) {
         mensaje: mensaje,
       };
     case "ultramale":
-      mensaje = "Hola, me gustaria comprar un Decant Club De Nuit de 'Ultra Male Jean Paul Gaultier' 😁.";
+      mensaje = "Hola, me gustaria comprar un Decant Ultra Male Jean Paul Gaultier 😁.";
       return {
         name: "Ultra Male Jean Paul Gaultier",
         price: { "10ml": "Q132.00", "5ml": "Q76.00" },
@@ -83,13 +83,13 @@ function getDetails(product) {
         mensaje: mensaje,
       };
     case "eros_flame":
-      mensaje = "Hola, me gustaria comprar un Decant Club Eros Flame 'VERSACE' 😁.";
+      mensaje = "Hola, me gustaria comprar un Decant Eros Flame 'VERSACE' 😁.";
       return {
         name: "Eros Flame 'VERSACE'",
         price: { "10ml": "Q140.00", "5ml": "Q80.00" },
-        image: "perfumes_catalogos/eros flame.jpg",
+        image: "perfumes_catalogos/eros_flame.jpg",
         smallImages: [
-          "perfumes_catalogos/eros flame.jpg",
+          "perfumes_catalogos/eros_flame.jpg",
           "perfumes_catalogos/eros_flame_mini.png",
           "notas/eros_flame.png"
         ],
