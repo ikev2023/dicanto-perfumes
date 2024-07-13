@@ -127,7 +127,10 @@ p {
     border-radius: 10px;
     transform: scale(1.05);
 }
-
+.img_perfumes2:hover
+{
+    transform: scale(1.2);
+}
 .a-nav {
     font-size: 3vh;
     font-family: "Poppins", sans-serif;
@@ -154,12 +157,19 @@ p {
     height: auto;
     transition: opacity 0.5s ease-in-out;
 }
+.img_notas {
+    width: 300px;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
 
 .img_perfumes2 {
     width: 100px;
     height: auto;
     cursor: pointer;
     margin: 5px;
+    transition: transform 0.3s ease;
 }
 
 .img_hidden {
@@ -173,19 +183,25 @@ p {
     height: 500px;
     /* Puedes ajustar la altura según tus necesidades */
 }
+.supertitulo
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 5.5vh;
+}
 
 input[type="radio"] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 50%;
     outline: none;
     margin-right: 10px;
     transition: transform 0.3s ease;
+    cursor: pointer;
     /* Añade transición a la propiedad transform */
 }
 
@@ -200,16 +216,17 @@ input[type="radio"]:checked {
 .btn_comprar {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #29A71A;
     color: white;
     border: none;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
 
 .fixed-card-size {
     width: 400px;
     /* Ancho fijo */
-    height: 570px;
+    height: 550px;
     /* Alto fijo */
 }
 
@@ -287,6 +304,7 @@ input[type="radio"]:checked {
 
 .carousel-image {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .carousel-image:hover {
@@ -371,15 +389,18 @@ input[type="radio"]:checked {
     .derecha {
         display: none;
     }
-
+    .ocultar
+    {
+        display: block;
+    }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 481px) {
     .fixed-card-size {
         width: 100%;
         /* Ancho completo */
-        height: 100%;
+        height: 450px;
         /* Ajusta la altura automáticamente */
     }
 
