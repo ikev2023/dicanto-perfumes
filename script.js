@@ -13,7 +13,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaría comprar un Decant Dylan Blue de 'VERSACE' 😁";
       return {
         name: "Versace Blue",
-        price: { "10ml": "Q160.00", "5ml": "Q90.00" },
+        price: { "10ml": "Q176.00", "5ml": "Q100.00" },
         image: "perfumes_catalogos/versace.png",
         smallImages: [
           "perfumes_catalogos/versace.png",
@@ -28,7 +28,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Toy Boy de 'MOSCHINO' 😁";
       return {
         name: 'Toy Boy de "MOSCHINO"',
-        price: { "10ml": "Q110.00", "5ml": "Q65.00" },
+        price: { "10ml": "Q121.00", "5ml": "Q72.00" },
         image: "perfumes_catalogos/epicasas.webp",
         smallImages: [
           "perfumes_catalogos/epicasas.webp",
@@ -43,7 +43,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Club De Nuit de 'ARMAF' 😁";
       return {
         name: 'Club De Nuit de "ARMAF"',
-        price: { "10ml": "Q90.00", "5ml": "Q55.00" },
+        price: { "10ml": "Q100.00", "5ml": "Q66.00" },
         image: "perfumes_catalogos/armaf_club.jpeg",
         smallImages: [
           "perfumes_catalogos/armaf_club.jpeg",
@@ -58,7 +58,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Halloween Man 😁.";
       return {
         name: "Halloween Man",
-        price: { "10ml": "Q80.00", "5ml": "Q50.00" },
+        price: { "10ml": "Q88.00", "5ml": "Q58.00" },
         image: "perfumes_catalogos/hallowen-men.png",
         smallImages: [
           "perfumes_catalogos/hallowen-men.png",
@@ -72,7 +72,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Ultra Male Jean Paul Gaultier 😁.";
       return {
         name: "Ultra Male Jean Paul Gaultier",
-        price: { "10ml": "Q132.00", "5ml": "Q76.00" },
+        price: { "10ml": "Q146.00", "5ml": "Q84.00" },
         image: "perfumes_catalogos/Jean_paul.png",
         smallImages: [
           "perfumes_catalogos/Jean_paul.png",
@@ -86,7 +86,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Eros Flame 'VERSACE' 😁.";
       return {
         name: "Eros Flame 'VERSACE'",
-        price: { "10ml": "Q140.00", "5ml": "Q80.00" },
+        price: { "10ml": "Q154.00", "5ml": "Q88.00" },
         image: "perfumes_catalogos/eros_flame.jpg",
         smallImages: [
           "perfumes_catalogos/eros_flame.jpg",
@@ -100,7 +100,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Dior Homme EAU DE TOILETTE 😁.";
       return {
         name: "Dior Homme EAU DE TOILETTE",
-        price: { "10ml": "Q130.00", "5ml": "Q75.00" },
+        price: { "10ml": "Q143.00", "5ml": "Q83.00" },
         image: "perfumes_catalogos/dior.jpg",
         smallImages: [
           "perfumes_catalogos/dior.jpg",
@@ -114,7 +114,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Eros Eau de Toilette 'VERSACE' 😁.";
       return {
         name: "Eros Eau de Toilette 'VERSACE'",
-        price: { "10ml": "Q160.00", "5ml": "Q90.00" },
+        price: { "10ml": "Q176.00", "5ml": "Q100.00" },
         image: "perfumes_catalogos/eros.jpg",
         smallImages: [
           "perfumes_catalogos/eros.jpg",
@@ -128,7 +128,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Y EAU DE TOILETTE 😁.";
       return {
         name: "Y EAU DE TOILETTE",
-        price: { "10ml": "Q165.00", "5ml": "Q92.00" },
+        price: { "10ml": "Q175.00", "5ml": "Q98.00" },
         image: "perfumes_catalogos/y_toilette.jpg",
         smallImages: [
           "perfumes_catalogos/y_toilette.jpg",
@@ -142,7 +142,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Y EAU DE PARFUM 😁.";
       return {
         name: "Y EAU DE PARFUM",
-        price: { "10ml": "Q190.00", "5ml": "Q105.00" },
+        price: { "10ml": "Q200.00", "5ml": "Q110.00" },
         image: "perfumes_catalogos/y_perfum.jpeg",
         smallImages: [
           "perfumes_catalogos/y_perfum.jpeg",
@@ -156,7 +156,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant The Icon EAU DE TOILETTE 😁.";
       return {
         name: "The Icon EAU DE TOILETTE",
-        price: { "10ml": "Q65.00", "5ml": "Q43.00" },
+        price: { "10ml": "Q72.00", "5ml": "Q50.00" },
         image: "perfumes_catalogos/banderas.jpeg",
         smallImages: [
           "perfumes_catalogos/banderas.jpeg",
@@ -170,7 +170,7 @@ function getDetails(product) {
       mensaje = "Hola, me gustaria comprar un Decant Givenchy pour homme 😁.";
       return {
         name: "Givenchy pour homme",
-        price: { "10ml": "Q110.00", "5ml": "Q65.00" },
+        price: { "10ml": "Q105.00", "5ml": "Q70.00" },
         image: "perfumes_catalogos/givenchy.jpeg",
         smallImages: [
           "perfumes_catalogos/givenchy.jpeg",
